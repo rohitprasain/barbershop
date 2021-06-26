@@ -29,7 +29,7 @@ li {
 .banner-text {
   text-align: center;
   color: #fff;
-  padding-top: 180px;
+  padding-top: 40vh;
   h1 {
     font-size: 130px;
     font-family: "Kaushan Script", cursive;
@@ -84,13 +84,67 @@ li {
   top: 35px;
 
   cursor: pointer;
+  background-color: #009688;
+  padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 0.5rem;
   img {
     width: 25px;
     height: 25px;
   }
 }
 
-@media screen and (max-width: 770px) {
+#feature {
+  padding: 2rem 0;
+  min-height: 10rem;
+  text-align: center;
+  .title-text {
+    p {
+      font-weight: bold;
+      color: #009688;
+      font-size: 1.5rem;
+      // &:after {
+      //   content: "nice";
+      //   background-color: linear-gradient(#009688, #fff);
+
+      //   position: absolute;
+      //   top: 20px;
+      //   left: 0;
+
+      //   transform: rotate(10deg);
+      // }
+    }
+  }
+  .mainFeature {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: space-around;
+    img {
+      height: 25rem;
+      width: 25rem;
+      border-radius: 2rem;
+      margin-top: 2rem;
+    }
+    .features {
+      margin-top: 2rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      text-align: left;
+      h3 {
+        color: #009688;
+        font-weight: bold;
+      }
+      .fas {
+        height: 2rem;
+        width: 2rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
   .banner-text {
     h1 {
       font-size: 44px;
@@ -100,6 +154,11 @@ li {
         display: block;
         margin: 20px auto;
       }
+    }
+  }
+  .features {
+    h3 {
+      margin-top: 2rem;
     }
   }
 }
