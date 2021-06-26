@@ -24,9 +24,9 @@ li {
       from(rgba(0, 0, 0, 0.5)),
       to(#009688)
     ),
-    url("images/banner.jpeg");
+    url(/images/banner.jpeg);
   background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),
-    url("images/banner.jpeg");
+    url(/images/banner.jpeg);
   height: 100vh;
   background-size: cover;
   background-position: center;
