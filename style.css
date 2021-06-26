@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -17,8 +17,16 @@ li {
 }
 
 #banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(#009688)), url(/images/banner.jpeg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(/images/banner.jpg);
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(#009688)
+    ),
+    url(images/banner.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),
+    url(images/banner.jpeg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -116,10 +124,10 @@ li {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 2rem;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 #feature .mainFeature img {
@@ -136,10 +144,10 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-align: left;
 }
 
